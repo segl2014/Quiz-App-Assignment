@@ -1,11 +1,27 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+button.btn.float-right {
+  background-color: #BA471E;
+  color: white;
+}
+
+button.btn.mt-3 {
+  background-color: #BA471E;
+  color: white;
+}
+
+.btn-custom-warning {
+  background-color: #BA471E !important;
+  color: #fff !important;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,12 +30,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #134b5f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: last baseline;
+  justify-content: last baseline;
   font-size: calc(10px + 2vmin);
   color: white;
 }
